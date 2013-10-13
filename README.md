@@ -25,7 +25,7 @@ tree.define("/hello/world", function () {
 ```
 
 #### Define: With Parameters
-Appending a colon ':' before a path segment will pass the value supplied in the call URL to the callback function
+Prepend a colon ':' before a path segment will pass the value supplied in the call URL to the callback function
 
 ```
 tree.define("/hello/:name", function (name) {
