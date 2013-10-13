@@ -75,5 +75,5 @@ tree.match("/joke/only_one_param"); // FALSE
 
 * Add more tests
 * Add more error checking / reporting
-* Specify request type (GET, POST, etc.) when defining path and callback
+* Specify request type (GET, POST, etc.) in `define`
 * Demos, specifically with a static file server
