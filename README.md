@@ -1,11 +1,9 @@
 # Lightweight URL Router for Node.js
----
 
 This is a simple and lightweight URL router module for a Node.js based RESTful web service.  The module creates a routing tree from a set of defined URL paths that can be traversed by supplying a URL you want to match.  This module also allows you to define sections of the URL path as parameters to be passed to the callback function.  This module can be used in conjunction with a simple static file server to build small-scale RESTful APIs quickly.
 
 
 ##Usage
-----
 
 #### Include
 ```
@@ -25,7 +23,6 @@ tree.define("/hello/world", function () {
 });
 
 ```
-
 
 #### Define: With Parameters
 Appending a colon ':' before a path segment will pass the value supplied in the call URL to the callback function
@@ -73,8 +70,9 @@ tree.match("/hello/Shannin"); // TRUE
 tree.match("/joke/only_one_param"); // FALSE
 ```
 
+
 ## To Do
-----
+
 * Add more tests
 * Add more error checking / reporting
 * Specify request type (GET, POST, etc.) when defining path and callback
